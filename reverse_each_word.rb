@@ -1,3 +1,5 @@
+require 'pry'
+
 def reverse_each_word (string)
   
   string_array = string.split
@@ -6,5 +8,5 @@ def reverse_each_word (string)
     "#{element.reverse}"
      end
    string_array.join
-   bindi
+   binding.pry
 end
