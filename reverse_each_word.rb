@@ -6,4 +6,5 @@ def reverse_each_word (string)
     "#{element.reverse}"
      end
    string_array.join
+   bindi
 end
