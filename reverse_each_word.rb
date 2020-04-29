@@ -8,5 +8,5 @@ def reverse_each_word (string)
     
     "#{element.reverse}"
     end
-   string_array.join(" ")
+   new_array.join(" ")
 end
